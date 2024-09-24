@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lexend-style {
+    font-family: "Lexend";
+    font-weight: auto;
+}
+
+
+/* Nav bar */
+
+.nav_ti{
+font-size: 20px;
+font-weight: 600px;
+border-radius: 8px;
+background: #B4F461;
+padding: 12px 32px;
+
+}
+
+.nav_titel{
+    width: 110px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: cente
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
