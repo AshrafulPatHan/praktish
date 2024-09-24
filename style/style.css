@@ -43,6 +43,14 @@ padding: 12px 32px;
 
 /* main part */
 
+.main-con{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
 /* button */
 
 .btn-donat{
@@ -70,6 +78,97 @@ padding: 16px 32px 16px 32px;
 
 
 }
+
+
+/* donation card section */
+
+.main-card-sec {
+display: flex;
+flex-direction: row;
+gap: 2rem;
+width: 1140px;
+height: 453px;
+border: 2px solid rgba(17, 17, 17, 0.1);
+border-radius: 1rem;
+margin: 2rem;
+padding: 2rem;
+}
+.main-img {
+width: auto;
+height: auto;
+}
+.main-div-1 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+
+}
+.main-div-2 {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 8px;
+background-color: rgba(241, 222, 222, 0.76);
+padding: 10px 16px 10px 16px;
+border-radius: 8px;
+}
+.main-icon-coin{
+width: auto;
+height: auto;
+}
+.main-had-tag {
+    font-size: 20px;
+    font-weight: 700px;
+margin-top: 1rem;
+
+
+}
+
+.main-class-pra {
+    font-size: 14px;
+    font-weight: 300px;
+    color: rgb(87, 85, 92);
+    margin-top: 1rem;
+}
+
+.main-input-sec {
+    width: 522px;
+    height: 56px;
+    padding: 20px;
+    box-sizing: border-box;
+border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin-top: 22px;
+}
+
+#main-input-btn-1{
+    width: 522px;
+    height: 57px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(180, 244, 97);
+    margin-top: 33px;
+}
+#main-input-btn-2{
+    width: 522px;
+    height: 57px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(180, 244, 97);
+    margin-top: 1rem;
+}
+#main-input-btn-3{
+    width: 522px;
+    height: 57px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: rgb(180, 244, 97);
+    margin-top: 1rem;
+}
+
 
 
 
