@@ -8,6 +8,11 @@
 }
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Nav bar */
 
 .nav_ti{
@@ -28,15 +33,43 @@ padding: 12px 32px;
 
 }
 
+.header-1{
+    background-color:rgb(249, 247, 243) ;
+    width: ;
+    height: ;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* main part */
+
+/* button */
+
+.btn-donat{
+    font-size: 20px;
+    font-weight: 600px;
+    width: 157px;
+    height: 57px;
+background-color: rgb(180, 244, 97);
+border-radius: 8px;
+align-items: center;
+padding: 16px 32px 16px 32px;
+text-align: center;
+
+}
+
+.anc-his{
+    font-size: 20px;
+    font-weight: 600px;
+    width: 157px;
+    height: 57px;
+background-color: rgba(139, 107, 107, 0.3);
+border-radius: 8px;
+align-items: center;
+padding: 16px 32px 16px 32px;
 
 
-
-
-
-
-
-
-
+}
 
 
 
