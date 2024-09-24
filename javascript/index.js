@@ -1,0 +1,24 @@
+// for coll javascript write:--> node javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
