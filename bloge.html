@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/html.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/dlog.css">
 </head>
-<body>
-    
+<body class="lexend-style">
+    <!-- nav bar -->
+    <header class="header-1">
+        <nav class="flex flex-row justify-between pt-12 pb-12 mx-32 items-center text-center" id="nav_bar">
+            <div class="nav_titel" >
+                <a href="bloge.html" class="nav_ti">Blog</a>
+            </div>
+            <div class="flex flex-row items-center gap-4 h-12">
+                <img src="./assets/logo.png" alt="logo" class="w-12 h-12">
+                <h1 class="text-xl font-semibold  h-6">Donate Bangladesh</h1>
+            </div>
+            <div class="flex flex-row gap-3 items-center">
+                <img src="./assets/coin.png" alt="icon" class="w-8 h-8">
+                <p class=" text-gray-500 " style="font-size: 30px; font-weight: 500px;  ">5500 BDT</p>
+            </div>
+        </nav>
+    </header>
+    <main class="main-par">
+        <!-- button -->
+        <div class="flex flex-row items-center gap-4 text-center justify-center mt-20" id="id-of-btn" >
+            <a href="index.html" class="btn-donat">Donation</a>
+            <a href="" class="anc-his">History</a>
+        </div>
+        <!-- FAQ -->
+        <div class="main-main">
+            <h2 class="main-hader-p">Important FAQ </h2>
+            <div class="main-onli-div">
+                <h3 class="main-onli-had">What is document object model </h3>
+                <p class="main-onli-pra">Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
+            </div>
+            <div class="main-onli-div">
+                <h3 class="main-onli-had">How do you select an element from the DOM</h3>
+                <p class="main-onli-pra">The DOM Input select() method selects all the text content of a textarea or an input element that contains the text field. Syntax: element. select();</p>
+            </div>
+            <div class="main-onli-div">
+                <h3 class="main-onli-had">What is event delegation in the context of the DOM , and why is it useful ?</h3>
+                <p class="main-onli-pra">Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
+            </div>
+            <div class="main-onli-div">
+                <h3 class="main-onli-had">How do you manipulate an elements attributs and styles using the DOM</h3>
+                <p class="main-onli-pra">Changing an element's style (CSS) attributes is one of the ways in which the DOM can be used. For example, in the code below, the onfocus event handler method is used to change the (input) element's style when the user clicks inside it. When this event occurs, the element's background color will change to purple.</p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
