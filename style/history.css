@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.lexend-style {
+    font-family: "Lexend";
+    font-weight: auto;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav bar */
+
+.nav-parant{
+background: rgba(230, 226, 216, 0.884);
+
+}
+
+.nav_ti{
+font-size: 20px;
+font-weight: 600px;
+border-radius: 8px;
+background: #B4F461;
+padding: 12px 32px;
+
+}
+
+.nav_titel{
+    width: 110px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: cente
+
+}
+
+.header-1{
+
+    margin-top: 0px;
+    padding-top: 0px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+
+/* button */
+
+.btn-donat{
+    font-size: 20px;
+    font-weight: 600px;
+    width: 157px;
+    height: 57px;
+background-color: rgba(180, 244, 97, 0.733);
+border-radius: 8px;
+align-items: center;
+padding: 16px 32px 16px 32px;
+text-align: center;
+
+}
+
+.anc-his{
+    font-size: 20px;
+    font-weight: 600px;
+    width: 157px;
+    height: 57px;
+background-color: rgba(139, 107, 107, 0.3);
+border-radius: 8px;
+align-items: center;
+padding: 16px 32px 16px 32px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
